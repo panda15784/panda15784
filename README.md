@@ -42,6 +42,10 @@ void delay() {
 
 
 
+
+
+
+
 square wave
 
 #include <p18f4550.h>
@@ -90,6 +94,12 @@ void main()
 
     while(1);
 }
+
+
+
+
+
+
 
 
 
@@ -158,6 +168,11 @@ void main()
 
 
 
+
+
+
+
+
 memory transfer
 
 #include <reg51.h>
@@ -172,6 +187,11 @@ for(i = 0; i < 8; i++)
     }
     while(1);
 }
+
+
+
+
+
 
 
 
@@ -263,6 +283,14 @@ void main()
         }
     }
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -379,6 +407,12 @@ void main(void)
 
 
 
+
+
+
+
+
+
 dc motor
 
 
@@ -429,6 +463,18 @@ void myMsDelay(unsigned int time)
     for (i = 0; i < time; i++)
         for (j = 0; j < 710; j++);
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
